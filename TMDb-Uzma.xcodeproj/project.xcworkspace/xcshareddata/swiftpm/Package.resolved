@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "networkingbyuzma",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/uzmasayyed7/NetworkingByUzma.git",
+      "state" : {
+        "revision" : "d66d6c465d0b3c2cc25f030d7965cb05bd8d19ed",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

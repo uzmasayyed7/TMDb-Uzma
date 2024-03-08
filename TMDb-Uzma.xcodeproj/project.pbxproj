@@ -14,6 +14,35 @@
 		8475F83B2B98861600D4E44A /* TMDb_UzmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475F83A2B98861600D4E44A /* TMDb_UzmaTests.swift */; };
 		8475F8452B98861600D4E44A /* TMDb_UzmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475F8442B98861600D4E44A /* TMDb_UzmaUITests.swift */; };
 		8475F8472B98861600D4E44A /* TMDb_UzmaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475F8462B98861600D4E44A /* TMDb_UzmaUITestsLaunchTests.swift */; };
+		849353AB2B99C0AB0050DFE4 /* NetworkingByUzma in Frameworks */ = {isa = PBXBuildFile; productRef = 849353AA2B99C0AB0050DFE4 /* NetworkingByUzma */; };
+		849353B02B99C5E60050DFE4 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353AF2B99C5E60050DFE4 /* HomeTabBarController.swift */; };
+		849353B22B99C78F0050DFE4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353B12B99C78F0050DFE4 /* Persistence.swift */; };
+		849353B62B99C8760050DFE4 /* TMDb-Uzma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849353B42B99C8760050DFE4 /* TMDb-Uzma.xcdatamodeld */; };
+		849353E22B99CF260050DFE4 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353BB2B99CF260050DFE4 /* MovieListViewController.swift */; };
+		849353E32B99CF260050DFE4 /* MovieListViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353BC2B99CF260050DFE4 /* MovieListViewControllerProtocol.swift */; };
+		849353E42B99CF260050DFE4 /* LatestMovTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353BE2B99CF260050DFE4 /* LatestMovTableViewCell.swift */; };
+		849353E52B99CF260050DFE4 /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353BF2B99CF260050DFE4 /* MovieInfoView.swift */; };
+		849353E62B99CF260050DFE4 /* MovieInfoColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353C02B99CF260050DFE4 /* MovieInfoColumnView.swift */; };
+		849353E72B99CF260050DFE4 /* MovieListViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353C12B99CF260050DFE4 /* MovieListViewModelProtocol.swift */; };
+		849353E82B99CF260050DFE4 /* LatestMovViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353C42B99CF260050DFE4 /* LatestMovViewModel.swift */; };
+		849353E92B99CF260050DFE4 /* LatestMovViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353C62B99CF260050DFE4 /* LatestMovViewController.swift */; };
+		849353EA2B99CF260050DFE4 /* PopularMovViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353C92B99CF260050DFE4 /* PopularMovViewModel.swift */; };
+		849353EB2B99CF260050DFE4 /* PopularMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353CB2B99CF260050DFE4 /* PopularMoviesViewController.swift */; };
+		849353EC2B99CF260050DFE4 /* MovieInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353CD2B99CF260050DFE4 /* MovieInfoModel.swift */; };
+		849353ED2B99CF260050DFE4 /* PopularMovResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353CE2B99CF260050DFE4 /* PopularMovResponseModel.swift */; };
+		849353EE2B99CF260050DFE4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353D12B99CF260050DFE4 /* NetworkManager.swift */; };
+		849353EF2B99CF260050DFE4 /* LatestMovMOHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353D32B99CF260050DFE4 /* LatestMovMOHandler.swift */; };
+		849353F02B99CF260050DFE4 /* LatestMovHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353D42B99CF260050DFE4 /* LatestMovHandler.swift */; };
+		849353F12B99CF260050DFE4 /* UIFont+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353D62B99CF260050DFE4 /* UIFont+Helper.swift */; };
+		849353F22B99CF260050DFE4 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353D72B99CF260050DFE4 /* ImageHelper.swift */; };
+		849353F32B99CF260050DFE4 /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353DA2B99CF260050DFE4 /* MovieDetailsViewModel.swift */; };
+		849353F42B99CF260050DFE4 /* MovieDetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353DC2B99CF260050DFE4 /* MovieDetailTopView.swift */; };
+		849353F52B99CF260050DFE4 /* MovieDetailOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353DD2B99CF260050DFE4 /* MovieDetailOverview.swift */; };
+		849353F62B99CF260050DFE4 /* MovieDetailColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353DE2B99CF260050DFE4 /* MovieDetailColumnView.swift */; };
+		849353F72B99CF260050DFE4 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849353E02B99CF260050DFE4 /* MovieDetailsViewController.swift */; };
+		B656FF77B9CEE3AF0F1997EF /* Pods_TMDb_UzmaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589E6E3AA50D507C543278EE /* Pods_TMDb_UzmaTests.framework */; };
+		C410755BA744ED7519431757 /* Pods_TMDb_Uzma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D326452B71A27375AA7502C /* Pods_TMDb_Uzma.framework */; };
+		CDBCE0BAAECF2A848DCB85A0 /* Pods_TMDb_Uzma_TMDb_UzmaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CCC27C13086C1003AD99073 /* Pods_TMDb_Uzma_TMDb_UzmaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +63,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E1CBE1E236EC49E2A3A513 /* Pods-TMDb-UzmaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDb-UzmaTests.debug.xcconfig"; path = "Target Support Files/Pods-TMDb-UzmaTests/Pods-TMDb-UzmaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2074D78570250400FB0EFF95 /* Pods-TMDb-Uzma-TMDb-UzmaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDb-Uzma-TMDb-UzmaUITests.release.xcconfig"; path = "Target Support Files/Pods-TMDb-Uzma-TMDb-UzmaUITests/Pods-TMDb-Uzma-TMDb-UzmaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2305318801C21AC80131862E /* Pods-TMDb-Uzma-TMDb-UzmaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDb-Uzma-TMDb-UzmaUITests.debug.xcconfig"; path = "Target Support Files/Pods-TMDb-Uzma-TMDb-UzmaUITests/Pods-TMDb-Uzma-TMDb-UzmaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CCC27C13086C1003AD99073 /* Pods_TMDb_Uzma_TMDb_UzmaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMDb_Uzma_TMDb_UzmaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A0152F9D025D5FD72C2954 /* Pods-TMDb-UzmaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDb-UzmaTests.release.xcconfig"; path = "Target Support Files/Pods-TMDb-UzmaTests/Pods-TMDb-UzmaTests.release.xcconfig"; sourceTree = "<group>"; };
+		589E6E3AA50D507C543278EE /* Pods_TMDb_UzmaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMDb_UzmaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6875FDEBF3AF146A1D72CCD2 /* Pods-TMDb-Uzma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDb-Uzma.release.xcconfig"; path = "Target Support Files/Pods-TMDb-Uzma/Pods-TMDb-Uzma.release.xcconfig"; sourceTree = "<group>"; };
+		71F3F74781648EEAEE130FC8 /* Pods-TMDb-Uzma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDb-Uzma.debug.xcconfig"; path = "Target Support Files/Pods-TMDb-Uzma/Pods-TMDb-Uzma.debug.xcconfig"; sourceTree = "<group>"; };
 		8475F8252B98861500D4E44A /* TMDb-Uzma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMDb-Uzma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8475F8282B98861500D4E44A /* TMDb_UzmaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDb_UzmaApp.swift; sourceTree = "<group>"; };
 		8475F82A2B98861500D4E44A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8475F82C2B98861600D4E44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8475F82E2B98861600D4E44A /* TMDb_Uzma.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TMDb_Uzma.entitlements; sourceTree = "<group>"; };
 		8475F8302B98861600D4E44A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8475F8362B98861600D4E44A /* TMDb-UzmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TMDb-UzmaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8475F83A2B98861600D4E44A /* TMDb_UzmaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDb_UzmaTests.swift; sourceTree = "<group>"; };
 		8475F8402B98861600D4E44A /* TMDb-UzmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TMDb-UzmaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8475F8442B98861600D4E44A /* TMDb_UzmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDb_UzmaUITests.swift; sourceTree = "<group>"; };
 		8475F8462B98861600D4E44A /* TMDb_UzmaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDb_UzmaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		849353AF2B99C5E60050DFE4 /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		849353B12B99C78F0050DFE4 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		849353B32B99C8520050DFE4 /* TMDb_Uzma.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TMDb_Uzma.entitlements; path = "TMDb-Uzma/TMDb_Uzma.entitlements"; sourceTree = SOURCE_ROOT; };
+		849353B52B99C8760050DFE4 /* TMDB_sample_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TMDB_sample_app.xcdatamodel; sourceTree = "<group>"; };
+		849353BB2B99CF260050DFE4 /* MovieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		849353BC2B99CF260050DFE4 /* MovieListViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewControllerProtocol.swift; sourceTree = "<group>"; };
+		849353BE2B99CF260050DFE4 /* LatestMovTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestMovTableViewCell.swift; sourceTree = "<group>"; };
+		849353BF2B99CF260050DFE4 /* MovieInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieInfoView.swift; sourceTree = "<group>"; };
+		849353C02B99CF260050DFE4 /* MovieInfoColumnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieInfoColumnView.swift; sourceTree = "<group>"; };
+		849353C12B99CF260050DFE4 /* MovieListViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewModelProtocol.swift; sourceTree = "<group>"; };
+		849353C42B99CF260050DFE4 /* LatestMovViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestMovViewModel.swift; sourceTree = "<group>"; };
+		849353C62B99CF260050DFE4 /* LatestMovViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestMovViewController.swift; sourceTree = "<group>"; };
+		849353C92B99CF260050DFE4 /* PopularMovViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularMovViewModel.swift; sourceTree = "<group>"; };
+		849353CB2B99CF260050DFE4 /* PopularMoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularMoviesViewController.swift; sourceTree = "<group>"; };
+		849353CD2B99CF260050DFE4 /* MovieInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieInfoModel.swift; sourceTree = "<group>"; };
+		849353CE2B99CF260050DFE4 /* PopularMovResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularMovResponseModel.swift; sourceTree = "<group>"; };
+		849353D12B99CF260050DFE4 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		849353D32B99CF260050DFE4 /* LatestMovMOHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestMovMOHandler.swift; sourceTree = "<group>"; };
+		849353D42B99CF260050DFE4 /* LatestMovHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestMovHandler.swift; sourceTree = "<group>"; };
+		849353D62B99CF260050DFE4 /* UIFont+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Helper.swift"; sourceTree = "<group>"; };
+		849353D72B99CF260050DFE4 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		849353DA2B99CF260050DFE4 /* MovieDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewModel.swift; sourceTree = "<group>"; };
+		849353DC2B99CF260050DFE4 /* MovieDetailTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailTopView.swift; sourceTree = "<group>"; };
+		849353DD2B99CF260050DFE4 /* MovieDetailOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailOverview.swift; sourceTree = "<group>"; };
+		849353DE2B99CF260050DFE4 /* MovieDetailColumnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailColumnView.swift; sourceTree = "<group>"; };
+		849353E02B99CF260050DFE4 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		9D326452B71A27375AA7502C /* Pods_TMDb_Uzma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMDb_Uzma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849353AB2B99C0AB0050DFE4 /* NetworkingByUzma in Frameworks */,
+				C410755BA744ED7519431757 /* Pods_TMDb_Uzma.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B656FF77B9CEE3AF0F1997EF /* Pods_TMDb_UzmaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +132,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDBCE0BAAECF2A848DCB85A0 /* Pods_TMDb_Uzma_TMDb_UzmaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DA4ECA599D75FC51FB30008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D326452B71A27375AA7502C /* Pods_TMDb_Uzma.framework */,
+				3CCC27C13086C1003AD99073 /* Pods_TMDb_Uzma_TMDb_UzmaUITests.framework */,
+				589E6E3AA50D507C543278EE /* Pods_TMDb_UzmaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43BEB547DC51EEACCAFB110C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71F3F74781648EEAEE130FC8 /* Pods-TMDb-Uzma.debug.xcconfig */,
+				6875FDEBF3AF146A1D72CCD2 /* Pods-TMDb-Uzma.release.xcconfig */,
+				2305318801C21AC80131862E /* Pods-TMDb-Uzma-TMDb-UzmaUITests.debug.xcconfig */,
+				2074D78570250400FB0EFF95 /* Pods-TMDb-Uzma-TMDb-UzmaUITests.release.xcconfig */,
+				02E1CBE1E236EC49E2A3A513 /* Pods-TMDb-UzmaTests.debug.xcconfig */,
+				54A0152F9D025D5FD72C2954 /* Pods-TMDb-UzmaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8475F81C2B98861500D4E44A = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +169,8 @@
 				8475F8392B98861600D4E44A /* TMDb-UzmaTests */,
 				8475F8432B98861600D4E44A /* TMDb-UzmaUITests */,
 				8475F8262B98861500D4E44A /* Products */,
+				43BEB547DC51EEACCAFB110C /* Pods */,
+				0DA4ECA599D75FC51FB30008 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,9 +188,11 @@
 			isa = PBXGroup;
 			children = (
 				8475F8282B98861500D4E44A /* TMDb_UzmaApp.swift */,
+				849353B12B99C78F0050DFE4 /* Persistence.swift */,
 				8475F82A2B98861500D4E44A /* ContentView.swift */,
+				849353B42B99C8760050DFE4 /* TMDb-Uzma.xcdatamodeld */,
+				849353B72B99CF260050DFE4 /* app */,
 				8475F82C2B98861600D4E44A /* Assets.xcassets */,
-				8475F82E2B98861600D4E44A /* TMDb_Uzma.entitlements */,
 				8475F82F2B98861600D4E44A /* Preview Content */,
 			);
 			path = "TMDb-Uzma";
@@ -107,6 +201,7 @@
 		8475F82F2B98861600D4E44A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				849353B32B99C8520050DFE4 /* TMDb_Uzma.entitlements */,
 				8475F8302B98861600D4E44A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -129,6 +224,180 @@
 			path = "TMDb-UzmaUITests";
 			sourceTree = "<group>";
 		};
+		849353AE2B99C5E60050DFE4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				849353AF2B99C5E60050DFE4 /* HomeTabBarController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		849353B72B99CF260050DFE4 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				849353AE2B99C5E60050DFE4 /* Home */,
+				849353BA2B99CF260050DFE4 /* MovieListView */,
+				849353C22B99CF260050DFE4 /* LatestMovies */,
+				849353C72B99CF260050DFE4 /* PopularMovies */,
+				849353CC2B99CF260050DFE4 /* Models */,
+				849353CF2B99CF260050DFE4 /* Common */,
+				849353D82B99CF260050DFE4 /* MovieDetails */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		849353BA2B99CF260050DFE4 /* MovieListView */ = {
+			isa = PBXGroup;
+			children = (
+				849353BB2B99CF260050DFE4 /* MovieListViewController.swift */,
+				849353BC2B99CF260050DFE4 /* MovieListViewControllerProtocol.swift */,
+				849353BD2B99CF260050DFE4 /* View */,
+				849353C12B99CF260050DFE4 /* MovieListViewModelProtocol.swift */,
+			);
+			path = MovieListView;
+			sourceTree = "<group>";
+		};
+		849353BD2B99CF260050DFE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				849353BE2B99CF260050DFE4 /* LatestMovTableViewCell.swift */,
+				849353BF2B99CF260050DFE4 /* MovieInfoView.swift */,
+				849353C02B99CF260050DFE4 /* MovieInfoColumnView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		849353C22B99CF260050DFE4 /* LatestMovies */ = {
+			isa = PBXGroup;
+			children = (
+				849353C32B99CF260050DFE4 /* ViewModel */,
+				849353C52B99CF260050DFE4 /* ViewController */,
+			);
+			path = LatestMovies;
+			sourceTree = "<group>";
+		};
+		849353C32B99CF260050DFE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				849353C42B99CF260050DFE4 /* LatestMovViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		849353C52B99CF260050DFE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				849353C62B99CF260050DFE4 /* LatestMovViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		849353C72B99CF260050DFE4 /* PopularMovies */ = {
+			isa = PBXGroup;
+			children = (
+				849353C82B99CF260050DFE4 /* ViewModel */,
+				849353CA2B99CF260050DFE4 /* ViewController */,
+			);
+			path = PopularMovies;
+			sourceTree = "<group>";
+		};
+		849353C82B99CF260050DFE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				849353C92B99CF260050DFE4 /* PopularMovViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		849353CA2B99CF260050DFE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				849353CB2B99CF260050DFE4 /* PopularMoviesViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		849353CC2B99CF260050DFE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				849353CD2B99CF260050DFE4 /* MovieInfoModel.swift */,
+				849353CE2B99CF260050DFE4 /* PopularMovResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		849353CF2B99CF260050DFE4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				849353D02B99CF260050DFE4 /* Networking */,
+				849353D22B99CF260050DFE4 /* CoreData */,
+				849353D52B99CF260050DFE4 /* SystemExtensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		849353D02B99CF260050DFE4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				849353D12B99CF260050DFE4 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		849353D22B99CF260050DFE4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				849353D32B99CF260050DFE4 /* LatestMovMOHandler.swift */,
+				849353D42B99CF260050DFE4 /* LatestMovHandler.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		849353D52B99CF260050DFE4 /* SystemExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				849353D62B99CF260050DFE4 /* UIFont+Helper.swift */,
+				849353D72B99CF260050DFE4 /* ImageHelper.swift */,
+			);
+			path = SystemExtensions;
+			sourceTree = "<group>";
+		};
+		849353D82B99CF260050DFE4 /* MovieDetails */ = {
+			isa = PBXGroup;
+			children = (
+				849353D92B99CF260050DFE4 /* ViewModel */,
+				849353DB2B99CF260050DFE4 /* View */,
+				849353DF2B99CF260050DFE4 /* ViewController */,
+			);
+			path = MovieDetails;
+			sourceTree = "<group>";
+		};
+		849353D92B99CF260050DFE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				849353DA2B99CF260050DFE4 /* MovieDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		849353DB2B99CF260050DFE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				849353DC2B99CF260050DFE4 /* MovieDetailTopView.swift */,
+				849353DD2B99CF260050DFE4 /* MovieDetailOverview.swift */,
+				849353DE2B99CF260050DFE4 /* MovieDetailColumnView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		849353DF2B99CF260050DFE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				849353E02B99CF260050DFE4 /* MovieDetailsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,15 +405,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8475F84A2B98861600D4E44A /* Build configuration list for PBXNativeTarget "TMDb-Uzma" */;
 			buildPhases = (
+				628DF59E94827E3FEF74A2F2 /* [CP] Check Pods Manifest.lock */,
 				8475F8212B98861500D4E44A /* Sources */,
 				8475F8222B98861500D4E44A /* Frameworks */,
 				8475F8232B98861500D4E44A /* Resources */,
+				8E9FF7303C8145B827D285BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "TMDb-Uzma";
+			packageProductDependencies = (
+				849353AA2B99C0AB0050DFE4 /* NetworkingByUzma */,
+			);
 			productName = "TMDb-Uzma";
 			productReference = 8475F8252B98861500D4E44A /* TMDb-Uzma.app */;
 			productType = "com.apple.product-type.application";
@@ -153,6 +427,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8475F84D2B98861600D4E44A /* Build configuration list for PBXNativeTarget "TMDb-UzmaTests" */;
 			buildPhases = (
+				BD0664A8C106E148823C202C /* [CP] Check Pods Manifest.lock */,
 				8475F8322B98861600D4E44A /* Sources */,
 				8475F8332B98861600D4E44A /* Frameworks */,
 				8475F8342B98861600D4E44A /* Resources */,
@@ -171,9 +446,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8475F8502B98861600D4E44A /* Build configuration list for PBXNativeTarget "TMDb-UzmaUITests" */;
 			buildPhases = (
+				7EF72C62317165494EF9C5DD /* [CP] Check Pods Manifest.lock */,
 				8475F83C2B98861600D4E44A /* Sources */,
 				8475F83D2B98861600D4E44A /* Frameworks */,
 				8475F83E2B98861600D4E44A /* Resources */,
+				8F38C974193751FA15226159 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +494,9 @@
 				Base,
 			);
 			mainGroup = 8475F81C2B98861500D4E44A;
+			packageReferences = (
+				849353A92B99C0AB0050DFE4 /* XCRemoteSwiftPackageReference "NetworkingByUzma" */,
+			);
 			productRefGroup = 8475F8262B98861500D4E44A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -254,13 +534,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		628DF59E94827E3FEF74A2F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMDb-Uzma-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EF72C62317165494EF9C5DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMDb-Uzma-TMDb-UzmaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E9FF7303C8145B827D285BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMDb-Uzma/Pods-TMDb-Uzma-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMDb-Uzma/Pods-TMDb-Uzma-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TMDb-Uzma/Pods-TMDb-Uzma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F38C974193751FA15226159 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMDb-Uzma-TMDb-UzmaUITests/Pods-TMDb-Uzma-TMDb-UzmaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMDb-Uzma-TMDb-UzmaUITests/Pods-TMDb-Uzma-TMDb-UzmaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TMDb-Uzma-TMDb-UzmaUITests/Pods-TMDb-Uzma-TMDb-UzmaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD0664A8C106E148823C202C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMDb-UzmaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8475F8212B98861500D4E44A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849353EE2B99CF260050DFE4 /* NetworkManager.swift in Sources */,
+				849353EB2B99CF260050DFE4 /* PopularMoviesViewController.swift in Sources */,
+				849353F52B99CF260050DFE4 /* MovieDetailOverview.swift in Sources */,
 				8475F82B2B98861500D4E44A /* ContentView.swift in Sources */,
+				849353E62B99CF260050DFE4 /* MovieInfoColumnView.swift in Sources */,
+				849353B22B99C78F0050DFE4 /* Persistence.swift in Sources */,
 				8475F8292B98861500D4E44A /* TMDb_UzmaApp.swift in Sources */,
+				849353F02B99CF260050DFE4 /* LatestMovHandler.swift in Sources */,
+				849353F32B99CF260050DFE4 /* MovieDetailsViewModel.swift in Sources */,
+				849353EF2B99CF260050DFE4 /* LatestMovMOHandler.swift in Sources */,
+				849353E92B99CF260050DFE4 /* LatestMovViewController.swift in Sources */,
+				849353E82B99CF260050DFE4 /* LatestMovViewModel.swift in Sources */,
+				849353E22B99CF260050DFE4 /* MovieListViewController.swift in Sources */,
+				849353E72B99CF260050DFE4 /* MovieListViewModelProtocol.swift in Sources */,
+				849353E32B99CF260050DFE4 /* MovieListViewControllerProtocol.swift in Sources */,
+				849353F22B99CF260050DFE4 /* ImageHelper.swift in Sources */,
+				849353EC2B99CF260050DFE4 /* MovieInfoModel.swift in Sources */,
+				849353ED2B99CF260050DFE4 /* PopularMovResponseModel.swift in Sources */,
+				849353B02B99C5E60050DFE4 /* HomeTabBarController.swift in Sources */,
+				849353F42B99CF260050DFE4 /* MovieDetailTopView.swift in Sources */,
+				849353E42B99CF260050DFE4 /* LatestMovTableViewCell.swift in Sources */,
+				849353F12B99CF260050DFE4 /* UIFont+Helper.swift in Sources */,
+				849353B62B99C8760050DFE4 /* TMDb-Uzma.xcdatamodeld in Sources */,
+				849353F72B99CF260050DFE4 /* MovieDetailsViewController.swift in Sources */,
+				849353F62B99CF260050DFE4 /* MovieDetailColumnView.swift in Sources */,
+				849353E52B99CF260050DFE4 /* MovieInfoView.swift in Sources */,
+				849353EA2B99CF260050DFE4 /* PopularMovViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +821,7 @@
 		};
 		8475F84B2B98861600D4E44A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F3F74781648EEAEE130FC8 /* Pods-TMDb-Uzma.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -421,6 +830,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TMDb-Uzma/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -432,7 +842,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
@@ -449,6 +859,7 @@
 		};
 		8475F84C2B98861600D4E44A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6875FDEBF3AF146A1D72CCD2 /* Pods-TMDb-Uzma.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,6 +868,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TMDb-Uzma/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -468,7 +880,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
@@ -485,6 +897,7 @@
 		};
 		8475F84E2B98861600D4E44A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E1CBE1E236EC49E2A3A513 /* Pods-TMDb-UzmaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +920,7 @@
 		};
 		8475F84F2B98861600D4E44A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A0152F9D025D5FD72C2954 /* Pods-TMDb-UzmaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +943,7 @@
 		};
 		8475F8512B98861600D4E44A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2305318801C21AC80131862E /* Pods-TMDb-Uzma-TMDb-UzmaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +965,7 @@
 		};
 		8475F8522B98861600D4E44A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2074D78570250400FB0EFF95 /* Pods-TMDb-Uzma-TMDb-UzmaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -609,6 +1025,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		849353A92B99C0AB0050DFE4 /* XCRemoteSwiftPackageReference "NetworkingByUzma" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uzmasayyed7/NetworkingByUzma.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		849353AA2B99C0AB0050DFE4 /* NetworkingByUzma */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849353A92B99C0AB0050DFE4 /* XCRemoteSwiftPackageReference "NetworkingByUzma" */;
+			productName = NetworkingByUzma;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		849353B42B99C8760050DFE4 /* TMDb-Uzma.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				849353B52B99C8760050DFE4 /* TMDB_sample_app.xcdatamodel */,
+			);
+			currentVersion = 849353B52B99C8760050DFE4 /* TMDB_sample_app.xcdatamodel */;
+			path = "TMDb-Uzma.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8475F81D2B98861500D4E44A /* Project object */;
 }
